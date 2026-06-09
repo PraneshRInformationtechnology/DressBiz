@@ -67,7 +67,7 @@ export default function App() {
     <ThemeProvider>
       <AuthProvider>
         <Router>
-          <OfflineIndicator />
+          {/* <OfflineIndicator /> */}
           <InstallPrompt />
           <AppRoutes />
           {needRefresh && (
@@ -81,11 +81,11 @@ export default function App() {
               </button>
             </div>
           )}
-          {offlineReady && (
+          {/* {offlineReady && (
             <div className="fixed bottom-4 left-4 z-40 rounded-2xl border border-emerald-200 bg-emerald-50/95 p-4 text-sm text-emerald-900 shadow-lg backdrop-blur dark:border-emerald-600 dark:bg-emerald-900/80 dark:text-emerald-100">
               App is ready for offline use.
             </div>
-          )}
+          )} */}
           <ToastContainer
             position="top-right"
             autoClose={3000}

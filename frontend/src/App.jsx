@@ -70,7 +70,7 @@ export default function App() {
           {/* <OfflineIndicator /> */}
           <InstallPrompt />
           <AppRoutes />
-          {needRefresh && (
+          {/* {needRefresh && (
             <div className="fixed bottom-4 right-4 z-40 rounded-2xl border border-blue-200 bg-white/95 p-4 shadow-lg backdrop-blur transition-all dark:border-blue-700 dark:bg-slate-900/95">
               <p className="mb-2 text-sm text-slate-700 dark:text-slate-200">A new version is ready. Refresh to update.</p>
               <button
@@ -80,7 +80,7 @@ export default function App() {
                 Refresh App
               </button>
             </div>
-          )}
+          )} */}
           {/* {offlineReady && (
             <div className="fixed bottom-4 left-4 z-40 rounded-2xl border border-emerald-200 bg-emerald-50/95 p-4 text-sm text-emerald-900 shadow-lg backdrop-blur dark:border-emerald-600 dark:bg-emerald-900/80 dark:text-emerald-100">
               App is ready for offline use.
